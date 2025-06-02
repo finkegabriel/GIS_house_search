@@ -9,12 +9,12 @@ from qgis.core import (
 )
 
 # CONFIG
-layer_name = "your_layer_name"  # QGIS layer name
-project_id = "your-gcp-project-id"
-dataset_id = "your_dataset"
-table_id = "your_table"
+layer_name = "az_homes"  # QGIS layer name
+project_id = ""
+dataset_id = ""
+table_id = "az_homes"
 full_table_id = f"{dataset_id}.{table_id}"
-credentials_path = "/path/to/your-service-account.json"
+credentials_path = "service-account.json"
 
 # Load QGIS layer
 layer = QgsProject.instance().mapLayersByName(layer_name)[0]
