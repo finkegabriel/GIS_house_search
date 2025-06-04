@@ -10,11 +10,11 @@ from qgis.core import (
 
 # CONFIG
 layer_name = "az_homes"  # QGIS layer name
-project_id = ""
-dataset_id = ""
+project_id = "orobytes"
+dataset_id = "az_homes"
 table_id = "az_homes"
 full_table_id = f"{dataset_id}.{table_id}"
-credentials_path = "service-account.json"
+credentials_path = "orobytes.json"
 
 # Load QGIS layer
 layer = QgsProject.instance().mapLayersByName(layer_name)[0]
