@@ -6,3 +6,5 @@
 *.qmd
 __pycache__/
 *.geojson
+.env
+zillow.py
